@@ -2,7 +2,7 @@ import {usersRegisterInterface,users_login} from "@/axios/axios_request/axiosReq
 import request from "@/axios/request"
 
 // 用户注册接口调用
-export const user_resgister = (req_data : usersRegisterInterface) => {
+export const user_register = (req_data : usersRegisterInterface) => {
     request.post('/users/register',req_data)
 }
 
